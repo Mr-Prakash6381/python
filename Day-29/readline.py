@@ -1,5 +1,3 @@
 file=open("class1.txt","r")
-print(file.readline())
-print(file.readline())
-print(file.readline())
+print(file.read())
 file.close()
